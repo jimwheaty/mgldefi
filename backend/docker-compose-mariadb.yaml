@@ -1,0 +1,20 @@
+# Use root/example as user/password credentials
+version: "3.1"
+
+services:
+  db:
+    image: mariadb:10.4
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: mglFuture7@$$
+      MARIADB_DATABASE: mgldefi
+    volumes:
+      - ./db/mgldefi.sql:/docker-entrypoint-initdb.d/mgldefi.sql
+    ports:
+      - 3306:3306
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
