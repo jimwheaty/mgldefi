@@ -16,13 +16,12 @@ import Step from "../views/Step";
 import Roadmap from "../views/Roadmap";
 import { SERVER_URL } from "../../constants/env";
 const pair = [
-  { name: "BTC", percent: 3.19763724, price: 57832.47921786725 },
-  { name: "BTC", percent: 3.19763724, price: 57832.47921786725 },
-  { name: "BTC", percent: 3.19763724, price: 57832.47921786725 },
-  { name: "BTC", percent: 3.19763724, price: 57832.47921786725 },
-  { name: "BTC", percent: 3.19763724, price: 57832.47921786725 },
-  { name: "BTC", percent: 3.19763724, price: 57832.47921786725 },
-
+  { name: "ETH", percent: 2.53, price: 2995.89 },
+  { name: "ETH", percent: 2.53, price: 2995.89 },
+  { name: "ETH", percent: 2.53, price: 2995.89 },
+  { name: "ETH", percent: 2.53, price: 2995.89 },
+  { name: "ETH", percent: 2.53, price: 2995.89 },
+  { name: "ETH", percent: 2.53, price: 2995.89 }
 ]
 function Home() {
 
